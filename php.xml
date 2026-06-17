@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>سایت من</title>
+
+<style>
+body{
+    margin:0;
+    font-family:tahoma;
+    background:linear-gradient(135deg,#2196F3,#4CAF50);
+    color:white;
+    text-align:center;
+}
+
+header{
+    padding:40px;
+    font-size:35px;
+    font-weight:bold;
+}
+
+main{
+    padding:30px;
+}
+
+button{
+    padding:15px 35px;
+    font-size:18px;
+    border:none;
+    border-radius:10px;
+    cursor:pointer;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+</style>
+
+</head>
+
+<body>
+
+<header>
+🌟 به سایت من خوش آمدید
+</header>
+
+<main>
+
+<h2>سلام!</h2>
+
+<p>
+این یک سایت نمونه است که فقط با HTML و CSS ساخته شده است.
+</p>
+
+<button onclick="alert('سلام پارسا!')">
+کلیک کن
+</button>
+
+</main>
+
+</body>
+</html>
